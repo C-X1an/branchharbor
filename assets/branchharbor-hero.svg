@@ -1,0 +1,73 @@
+<svg width="1440" height="480" viewBox="0 0 1440 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="72" y1="32" x2="1368" y2="448" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#09111F"/>
+      <stop offset="0.48" stop-color="#111B34"/>
+      <stop offset="1" stop-color="#0A1324"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1148 92) rotate(138.5) scale(512 374)">
+      <stop stop-color="#22D3EE" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(290 420) rotate(-37) scale(520 330)">
+      <stop stop-color="#8B5CF6" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line" x1="161" y1="260" x2="520" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B5CF6"/>
+      <stop offset="0.48" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="175" y1="118" x2="493" y2="382" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A78BFA"/>
+      <stop offset="0.5" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" stroke="#DCE7FF" stroke-opacity="0.035"/>
+    </pattern>
+  </defs>
+
+  <rect width="1440" height="480" rx="30" fill="url(#bg)"/>
+  <rect width="1440" height="480" rx="30" fill="url(#glow1)"/>
+  <rect width="1440" height="480" rx="30" fill="url(#glow2)"/>
+  <rect x="1" y="1" width="1438" height="478" rx="29" stroke="#C7D2FE" stroke-opacity="0.10" stroke-width="2"/>
+  <rect x="1" y="1" width="1438" height="478" rx="29" fill="url(#grid)"/>
+
+  <rect x="94" y="74" width="468" height="332" rx="42" fill="#0C1528" fill-opacity="0.80" stroke="#A5B4FC" stroke-opacity="0.11"/>
+
+  <g stroke="url(#line)" stroke-width="11" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M164 240H255C292 240 309 203 309 166V138"/>
+    <path d="M255 240H345C386 240 405 202 405 165V132"/>
+    <path d="M255 240H345C386 240 405 278 405 315V348"/>
+    <path d="M255 240H462"/>
+  </g>
+  <g fill="#0C1528" stroke="url(#mark)" stroke-width="7">
+    <circle cx="164" cy="240" r="18"/>
+    <circle cx="309" cy="138" r="18"/>
+    <circle cx="405" cy="132" r="18"/>
+    <circle cx="405" cy="348" r="18"/>
+    <circle cx="462" cy="240" r="22"/>
+  </g>
+  <path d="M462 197C497 197 526 216 526 240C526 264 497 283 462 283" stroke="#22D3EE" stroke-opacity="0.28" stroke-width="4" stroke-linecap="round"/>
+  <path d="M485 186V294" stroke="#22D3EE" stroke-opacity="0.13" stroke-width="2"/>
+
+  <text x="645" y="180" fill="#F8FAFC" font-size="66" font-weight="750" letter-spacing="-2.8" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">BranchHarbor</text>
+  <text x="648" y="229" fill="#B8C5DB" font-size="23" font-weight="500" letter-spacing="0.2" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">Reviewable, versioned workspace state for cooperating tool clients.</text>
+
+  <g transform="translate(648 278)">
+    <rect x="0" y="0" width="164" height="42" rx="21" fill="#17233B" stroke="#60A5FA" stroke-opacity="0.22"/>
+    <circle cx="24" cy="21" r="5" fill="#60A5FA"/>
+    <text x="41" y="27" fill="#DCE7FF" font-size="15" font-weight="650" font-family="Inter, ui-sans-serif, system-ui, sans-serif">Versioned state</text>
+
+    <rect x="178" y="0" width="174" height="42" rx="21" fill="#17233B" stroke="#A78BFA" stroke-opacity="0.22"/>
+    <circle cx="202" cy="21" r="5" fill="#A78BFA"/>
+    <text x="219" y="27" fill="#DCE7FF" font-size="15" font-weight="650" font-family="Inter, ui-sans-serif, system-ui, sans-serif">Scoped authority</text>
+
+    <rect x="366" y="0" width="168" height="42" rx="21" fill="#17233B" stroke="#22D3EE" stroke-opacity="0.22"/>
+    <circle cx="390" cy="21" r="5" fill="#22D3EE"/>
+    <text x="407" y="27" fill="#DCE7FF" font-size="15" font-weight="650" font-family="Inter, ui-sans-serif, system-ui, sans-serif">Crash recovery</text>
+  </g>
+
+  <text x="648" y="367" fill="#72839F" font-size="15" font-weight="550" letter-spacing="1.25" font-family="Inter, ui-sans-serif, system-ui, sans-serif">GO · SINGLE NODE · LOCAL DISK · EXPLICIT CONFLICTS · REPRODUCIBLE TESTS</text>
+</svg>
