@@ -13,8 +13,7 @@ run: build
 fmt:
 	gofmt -w cmd internal tests
 fmt-check:
-	@files=$$(gofmt -l cmd internal tests) || exit 1; test -z "$$files" || { printf '%s
-' "$$files"; exit 1; }
+	@files=$$(gofmt -l cmd internal tests) || exit 1; test -z "$$files" || { echo "$$files"; exit 1; }
 lint:
 	go vet ./...
 typecheck: lint
