@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/C-X1an/branchharbor/actions/workflows/verify.yml"><img alt="Verify" src="https://img.shields.io/github/actions/workflow/status/C-X1an/branchharbor/verify.yml?branch=main&style=flat-square&label=verify&logo=githubactions&logoColor=white"></a>
-  <img alt="Go 1.27.1" src="https://img.shields.io/badge/Go-1.27.1-00ADD8?style=flat-square&logo=go&logoColor=white">
+  <img alt="Go 1.27.2" src="https://img.shields.io/badge/Go-1.27.2-00ADD8?style=flat-square&logo=go&logoColor=white">
   <img alt="Linux" src="https://img.shields.io/badge/platform-Linux-111827?style=flat-square&logo=linux&logoColor=white">
   <img alt="Standard library runtime" src="https://img.shields.io/badge/runtime-standard%20library-6366F1?style=flat-square">
   <a href="./LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-7C3AED?style=flat-square"></a>
@@ -51,7 +51,7 @@ Durable request identity supports safe retries after lost responses, while uncer
 
 | Property | Design |
 |---|---|
-| **Runtime** | Go 1.27.1 on Linux |
+| **Runtime** | Go 1.27.2 on Linux |
 | **Topology** | Single process, single store owner, multiple authenticated HTTP clients |
 | **State** | Immutable blobs / trees / commits with mutable branch references |
 | **Concurrency** | Expected commit + version checks; serialized mutation path |
@@ -62,7 +62,7 @@ Durable request identity supports safe retries after lost responses, while uncer
 
 ## Quickstart
 
-Use Linux, or WSL2 with the repository stored inside its Linux filesystem. Install **Go 1.27.1**, Python 3.11+, Make, Git, and a C compiler for the race detector.
+Use Linux, or WSL2 with the repository stored inside its Linux filesystem. Install **Go 1.27.2**, Python 3.11+, Make, Git, and a C compiler for the race detector.
 
 ```bash
 git clone https://github.com/C-X1an/branchharbor.git
